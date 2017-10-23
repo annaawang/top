@@ -1,0 +1,24 @@
+{
+  "name": "top",
+  "version": "1.0.0",
+  "description": "The Opportunity Project 2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/annaawang/top.git"
+  },
+  "author": "awang, fbueti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/annaawang/top/issues"
+  },
+  "homepage": "https://github.com/annaawang/top#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "uswds": "^1.4.1"
+  }
+}
