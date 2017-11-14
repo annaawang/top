@@ -1,1 +1,206 @@
 @import '../../node_modules/uswds/dist/scss/uswds.scss';
+$red: #C8002C;
+$dark-blue: #004469;
+$light-blue: #0078AC;
+$gray: #4A4A4A;
+
+.constrained-p{
+	max-width: 512px;
+}
+button{
+	border-radius: 0px;
+  	min-height: 59px;
+  	min-width: 237px;
+  	display: inline;
+  }
+ .unfilled-button-red, .unfilled-button-blue{
+ 	background-color: white;
+ 	border: 3px solid;
+ }
+ .unfilled-button-red{
+  	color: $red;
+  }
+ .unfilled-button-blue{
+  	color: $dark-blue;
+  }
+ .white-section{
+ 	color: $gray;
+ }
+  .blue-section{
+  	background-color: $light-blue;
+  	color: white;
+}
+ .white-section, .blue-section{
+  	padding: 270px 0px;
+ 	h2{
+ 		font-size: 25px;
+ 	}
+ 	h3{
+ 		text-transform: uppercase;
+ 		font-family: "Source Sans Pro";
+ 	}
+ 	p{
+ 		font-size: 18px;
+ 	}
+ }
+
+nav{
+	background-color: $dark-blue;
+	width: 100%;
+	height: 70px;
+	#logo{
+		height: 42.7px;
+		margin-top: 14px;
+	}
+	#links{
+		float: right;
+		margin-top: 22px;
+			a{
+				font-size: 18px;
+				font-weight: 700;
+				text-decoration: none;
+				color: #F6F6F6;
+				margin-right: 76px;
+				letter-spacing: .2px;
+			}
+	}
+}
+
+#splash{
+	text-align: center;
+	height: calc(100vh - 70px);
+	min-height: 320px;
+	background-image: url(../img/hero.png);
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	h1{
+  		color: #E3E3E3;
+  		text-align: center;
+  		font-size: 35px;
+  		margin-bottom: 27px;
+  		margin-top: calc(50vh - 70px - 115PX);
+  	}
+  	p{
+  		color: #F6F6F6;
+  		max-width: 577px;
+  		text-align: center;
+  		margin: auto;
+  		font-size: 20px;
+  		margin-bottom: 42px;
+  	}
+  	#learn-more, #start-a-project{
+  		display: inline;
+  	}
+  	#learn-more{
+  		background-color: $red;
+  		margin-right: 100px;
+  	}
+  	@media screen and (max-width: 940px) {
+  		#learn-more{
+  			margin-right: 10px;
+  		}
+  	}
+  	#start-a-project{
+  		background-color: $dark-blue;
+  	}
+}
+
+#what-is{
+	.call-to-action{
+		margin-top: 110px - 21px;
+		text-align: center;
+		.usa-width-one-half{
+			max-width: 324px + 172px;
+			padding: 21px 86px;
+			h3{
+				color: $dark-blue;
+				font-size: 15px;
+			}
+			img{
+				width: 324px;
+				height: 119px;
+				margin-top: 31px;
+				margin-bottom: 57px;
+			}
+		}
+		#department-of-commerce{
+			border-right: solid 1px #979797;
+		}
+	}
+}
+
+#in-action{
+	.usa-width-one-third{
+		margin-top: 40px;
+		border: solid 2px #F6F6F6;
+		background-color: rgba(#004469, .2);
+		padding: 40px 22px;
+		p{
+			font-size: 15px;
+		}
+		img{
+			width: 283px;
+			height: 202px;
+		}
+		h3{
+			font-size: 18px;
+		}
+		li{
+			text-transform: uppercase;
+			font-size: 12px;
+			list-style: none;
+			img{
+				height: 24px;
+				width: auto;
+				margin-right: 6px;
+				margin-left: -35px;
+			}
+		}
+	}
+}
+
+#in-the-media{
+	.usa-width-one-third{
+		margin-top: 31px;
+		border: solid 2px $light-blue;
+		padding: 40px 25px;
+		h3{
+			color: $light-blue;
+			text-transform: none;
+			margin-bottom: 0px;
+		}
+		img{
+			width: 275px;
+			height: 108px;
+		}
+		p{
+			margin-top: 0px;
+		}
+	}
+}
+
+footer{
+	height: 358px;
+	background-color: $dark-blue;
+	color: white;
+	padding-top: 91px;
+	img{
+		width: 108px;
+		margin-right: 10px;
+		float: left;
+	}
+	#census-logo{
+		margin-top: 30px;
+	}
+	ul{
+		float: left;
+		text-transform: uppercase;
+		li{
+			font-size: 14px;
+			list-style: none;
+			line-height: 1;
+		}
+	}
+}
