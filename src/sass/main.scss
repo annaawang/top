@@ -4,6 +4,8 @@ $dark-blue: #004469;
 $light-blue: #0078AC;
 $gray: #4A4A4A;
 
+$button-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
 .constrained-p{
 	max-width: 512px;
 }
@@ -69,7 +71,7 @@ nav{
 
 #splash{
 	text-align: center;
-	height: calc(100vh - 70px);
+	height: calc(90vh - 70px);
 	min-height: 320px;
 	background-image: url(../img/hero.png);
   	-webkit-background-size: cover;
@@ -97,6 +99,7 @@ nav{
   	#learn-more{
   		background-color: $red;
   		margin-right: 100px;
+  		box-shadow: $button-shadow;
   	}
   	@media screen and (max-width: 940px) {
   		#learn-more{
@@ -104,7 +107,8 @@ nav{
   		}
   	}
   	#start-a-project{
-  		background-color: $dark-blue;
+  		background-color: $light-blue;
+  		box-shadow: $button-shadow;
   	}
 }
 

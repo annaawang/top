@@ -3717,7 +3717,7 @@ nav {
 
 #splash {
   text-align: center;
-  height: calc(100vh - 70px);
+  height: calc(90vh - 70px);
   min-height: 320px;
   background-image: url(../img/hero.png);
   -webkit-background-size: cover;
@@ -3741,12 +3741,14 @@ nav {
     display: inline; }
   #splash #learn-more {
     background-color: #C8002C;
-    margin-right: 100px; }
+    margin-right: 100px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   @media screen and (max-width: 940px) {
     #splash #learn-more {
       margin-right: 10px; } }
   #splash #start-a-project {
-    background-color: #004469; }
+    background-color: #0078AC;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 #what-is .call-to-action {
   margin-top: 89px;
