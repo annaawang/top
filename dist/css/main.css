@@ -3709,6 +3709,10 @@ button {
 .unfilled-button-red {
   color: #C8002C; }
 
+.unfilled-button-red:hover {
+  color: white;
+  background-color: #C8002C; }
+
 .unfilled-button-blue {
   color: #004469; }
 
@@ -3824,6 +3828,10 @@ nav {
       margin-right: 6px;
       margin-left: -35px; }
 
+#in-action .usa-width-one-third:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
 #in-the-media .usa-width-one-third {
   margin-top: 31px;
   border: solid 1px #4A4A4A;
@@ -3837,6 +3845,10 @@ nav {
     height: 108px; }
   #in-the-media .usa-width-one-third p {
     margin-top: 0px; }
+
+#in-the-media .usa-width-one-third:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
 
 footer {
   height: 358px;

@@ -5,6 +5,12 @@ $light-blue: #0078AC;
 $gray: #4A4A4A;
 
 $button-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+@mixin hoverable() {
+	cursor: pointer;
+	box-shadow: $button-shadow;
+}
+
 p{
 	font-family: 'Source Sans Pro', sans-serif;
   	font-weight: 200;
@@ -25,6 +31,10 @@ button{
  .unfilled-button-red{
   	color: $red;
   }
+ .unfilled-button-red:hover{
+ 	color: white;
+ 	background-color: $red;
+ }
  .unfilled-button-blue{
   	color: $dark-blue;
   }
@@ -169,6 +179,9 @@ nav{
 			}
 		}
 	}
+	.usa-width-one-third:hover{
+		@include hoverable;
+	}
 }
 
 #in-the-media{
@@ -188,6 +201,9 @@ nav{
 		p{
 			margin-top: 0px;
 		}
+	}
+	.usa-width-one-third:hover{
+		@include hoverable;
 	}
 }
 
