@@ -198,13 +198,14 @@ footer{
 	padding-top: 91px;
 	img{
 		width: 108px;
-		margin-right: 10px;
+		margin-right: 34px;
 		float: left;
 	}
 	#census-logo{
 		margin-top: 30px;
 	}
 	ul{	
+		margin-top: 1em;
 		color: #F6F6F6;
 		float: left;
 		text-transform: uppercase;
@@ -217,5 +218,8 @@ footer{
 			line-height: 1;
 			font-weight: 200;
 		}
+	}
+	#images{
+		float: right;
 	}
 }

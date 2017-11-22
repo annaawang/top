@@ -360,6 +360,31 @@ td,
 th {
   padding: 0; }
 
+/* stylelint-disable at-rule-empty-line-before */
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-light-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-light-webfont.woff") format("woff"), url("../fonts/sourcesanspro-light-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"), url("../fonts/sourcesanspro-regular-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-italic-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-italic-webfont.woff") format("woff"), url("../fonts/sourcesanspro-italic-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-bold-webfont.woff") format("woff"), url("../fonts/sourcesanspro-bold-webfont.ttf") format("truetype"); }
+
 @font-face {
   font-family: "Merriweather";
   font-style: normal;
@@ -1033,7 +1058,8 @@ button,
   [type=submit].usa-button-big,
   [type=reset].usa-button-big,
   [type=image].usa-button-big {
-    font-size: 1.9rem;
+    border-radius: 8px;
+    font-size: 2.4rem;
     padding: 1.5rem 3rem; }
   .usa-button:disabled,
   .usa-button-primary:disabled,
@@ -1353,7 +1379,7 @@ legend {
 
 [type=radio]:focus + label::before {
   outline: 2px dotted #aeb0b5;
-  outline-offset: 5px; }
+  outline-offset: 6px; }
 
 [type=checkbox]:disabled + label {
   color: #d6d7d9; }
@@ -2268,8 +2294,8 @@ dfn {
   .usa-footer .usa-footer-primary-link:hover {
     text-decoration: underline; }
 
-.usa-footer a {
-  font-weight: normal;
+.usa-footer .usa-footer-primary-link ~ li a,
+.usa-footer .usa-footer-secondary-link {
   text-decoration: none; }
 
 .usa-footer-contact_info {
@@ -2776,13 +2802,10 @@ input.usa-input-medium {
       border-bottom: 1px solid #d6d7d9; } }
   .usa-header a {
     border-bottom: none; }
-  .usa-header .usa-search {
-    margin-bottom: 1.5rem; }
-    @media screen and (min-width: 951px) {
-      .usa-header .usa-search {
-        float: right;
-        margin-bottom: 0;
-        max-width: 21.5rem; } }
+  @media screen and (min-width: 951px) {
+    .usa-header .usa-search {
+      float: right;
+      max-width: 21.5rem; } }
 
 .usa-logo {
   float: left;
@@ -2968,11 +2991,7 @@ input.usa-input-medium {
       max-width: 30rem; } }
   .usa-hero-callout > *:first-child {
     margin-top: 0;
-    margin-bottom: 3rem; }
-  .usa-hero-callout .usa-button {
-    font-size: 1.4rem;
-    margin-top: 7rem;
-    width: 100%; }
+    margin-bottom: 2rem; }
 
 .usa-hero-callout-alt {
   color: #ffffff;
@@ -3099,6 +3118,7 @@ input.usa-input-medium {
   margin-bottom: 0;
   list-style-type: none;
   padding-left: 0;
+  margin-top: 1.5rem;
   order: 2; }
   .usa-nav-primary > li {
     margin-bottom: 0; }
@@ -3254,77 +3274,77 @@ input.usa-input-medium {
     border-bottom: 0.7rem solid #0071bc;
     padding-bottom: 0.9rem; } }
 
-@media screen and (min-width: 951px) {
-  .usa-nav-secondary {
-    position: absolute;
-    right: 3rem;
-    top: -5.7rem; } }
-
-.usa-nav-secondary .usa-search {
-  margin-top: 3rem;
-  margin-bottom: 3rem; }
+.usa-nav-secondary {
+  margin-top: 1.5rem; }
   @media screen and (min-width: 951px) {
-    .usa-nav-secondary .usa-search {
-      margin-top: -0.9rem;
-      margin-bottom: 0;
-      margin-left: 0;
-      float: left; } }
+    .usa-nav-secondary {
+      margin-top: 0;
+      position: absolute;
+      right: 3rem;
+      top: -5.7rem; } }
+  .usa-nav-secondary .usa-search {
+    margin-top: 1.5rem;
+    margin-bottom: 0; }
+    @media screen and (min-width: 951px) {
+      .usa-nav-secondary .usa-search {
+        margin-top: -0.9rem;
+        margin-bottom: 0;
+        margin-left: 0;
+        float: left; } }
 
-@media screen and (min-width: 951px) {
-  .usa-nav-secondary-links {
-    float: left; } }
-
-@media screen and (min-width: 951px) {
-  .usa-nav-secondary-links li {
-    display: inline;
-    padding-left: 0.5rem; } }
-
-@media screen and (min-width: 951px) {
-  .usa-nav-secondary-links li:not(:last-child)::after {
-    color: #d6d7d9;
-    content: '|';
-    padding-left: 0.5rem; } }
-
-.usa-nav-secondary-links a,
-.usa-nav-secondary-links .usa-header-search-button {
-  color: #5b616b;
-  display: inline-block;
-  font-size: 1.5rem;
-  text-decoration: none; }
-  .usa-nav-secondary-links a:hover,
-  .usa-nav-secondary-links .usa-header-search-button:hover {
-    color: #0071bc;
-    text-decoration: underline; }
-
-.usa-nav-secondary-links .usa-header-search-button {
-  background-color: transparent;
-  border: 0;
-  border-radius: 0;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  -webkit-font-smoothing: auto;
-  display: none; }
-  .usa-nav-secondary-links .usa-header-search-button:hover {
-    background-color: transparent; }
+.usa-nav-secondary-links {
+  margin-top: 2.4rem; }
   @media screen and (min-width: 951px) {
-    .usa-nav-secondary-links .usa-header-search-button {
-      background-image: url("../img/search-alt.png");
-      background-image: url("../img/search-alt.svg");
-      background-repeat: no-repeat;
-      background-position: left center;
-      background-size: 2.2rem;
-      display: inline-block;
-      padding-left: 2.3rem; } }
+    .usa-nav-secondary-links {
+      float: left;
+      margin-top: 0; } }
   @media screen and (min-width: 951px) {
-    .usa-nav-secondary-links .usa-header-search-button.is-hidden {
-      display: none; } }
-
-@media screen and (min-width: 951px) {
-  .usa-nav-secondary-links a.usa-current {
-    border-left: 0;
-    padding-left: 0; } }
+    .usa-nav-secondary-links li {
+      display: inline;
+      padding-left: 0.5rem; } }
+  @media screen and (min-width: 951px) {
+    .usa-nav-secondary-links li:not(:last-child)::after {
+      color: #d6d7d9;
+      content: '|';
+      padding-left: 0.5rem; } }
+  .usa-nav-secondary-links a,
+  .usa-nav-secondary-links .usa-header-search-button {
+    color: #5b616b;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-decoration: none; }
+    .usa-nav-secondary-links a:hover,
+    .usa-nav-secondary-links .usa-header-search-button:hover {
+      color: #0071bc;
+      text-decoration: underline; }
+  .usa-nav-secondary-links .usa-header-search-button {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    -webkit-font-smoothing: auto;
+    display: none; }
+    .usa-nav-secondary-links .usa-header-search-button:hover {
+      background-color: transparent; }
+    @media screen and (min-width: 951px) {
+      .usa-nav-secondary-links .usa-header-search-button {
+        background-image: url("../img/search-alt.png");
+        background-image: url("../img/search-alt.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 2.2rem;
+        display: inline-block;
+        padding-left: 2.3rem; } }
+    @media screen and (min-width: 951px) {
+      .usa-nav-secondary-links .usa-header-search-button.is-hidden {
+        display: none; } }
+  @media screen and (min-width: 951px) {
+    .usa-nav-secondary-links a.usa-current {
+      border-left: 0;
+      padding-left: 0; } }
 
 .usa-nav-submenu {
   margin-top: 0;
@@ -3389,7 +3409,7 @@ input.usa-input-medium {
   padding: 0;
   text-align: left;
   -webkit-font-smoothing: auto;
-  margin: -1.2rem -1.5rem 2.4rem auto;
+  margin: -1.2rem -1.5rem 1.5rem auto;
   float: right;
   height: 4.4rem;
   text-align: center;
@@ -3401,6 +3421,8 @@ input.usa-input-medium {
       display: none; } }
   .usa-nav-close img {
     width: 1.3rem; }
+  .usa-nav-close + * {
+    clear: both; }
 
 .usa-mobile_nav-active {
   overflow: hidden; }
@@ -3823,11 +3845,12 @@ footer {
   padding-top: 91px; }
   footer img {
     width: 108px;
-    margin-right: 10px;
+    margin-right: 34px;
     float: left; }
   footer #census-logo {
     margin-top: 30px; }
   footer ul {
+    margin-top: 1em;
     color: #F6F6F6;
     float: left;
     text-transform: uppercase; }
@@ -3838,3 +3861,5 @@ footer {
       list-style: none;
       line-height: 1;
       font-weight: 200; }
+  footer #images {
+    float: right; }
