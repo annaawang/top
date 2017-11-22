@@ -9,6 +9,10 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/uswds.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
   </head>
 
 <body>
@@ -28,7 +32,7 @@
     <div class="usa-grid">
       <div class="usa-width-one-whole">
         <h1> The Opportunity Project </h1>
-        <p> Bringing  together government, technologists, and communities to create digital tools that increase American economic opportunity </p>
+        <p> Bringing  together government, technologists, and communities to create digital tools that increase American economic opportunity. </p>
         <button id="learn-more"> Learn More </button>
         <button id='start-a-project'> Start a Project </button>
       </div>
@@ -38,7 +42,7 @@
   <div class="usa-grid">
       <div class="usa-width-one-half">
         <h2> What is The Opportunity Project? </h2>
-        <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+        <p> The Opportunity Project is a process for engaging government, communities, and the technology industry to create digital tools that address our greatest challenges as a nation. This process helps to empower people with technology, make government data more accessible and user-friendly, and facilitate cross-sector collaboration to build new digital solutions.  </p>
       </div>
       <div class="usa-width-one-half">
         <img src="../img/diagram.png" alt="Venn Diagram of Government, Tech, and Communities">
@@ -47,13 +51,13 @@
     <div class="usa-grid call-to-action">
       <div class="usa-width-one-half" id="department-of-commerce">
         <h3>A Department of Commerce Initiative</h3>
-        <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+        <p> The Department of Commerce connects tech developers, local leaders, and non-profits with problem statements on issues like jobs, transportation, and housing, and facilitates user-centered tech development sprints to create new digital solutions. </p>
         <img src="../img/placeholder2.png" alt="">
         <button class="unfilled-button-blue"> Join the Next Cohort </button>
       </div>
     <div class="usa-width-one-half">
       <h3>A Way to Engage your community</h3>
-      <p> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+      <p> Anyone can replicate this process!  Local leaders, technologists, students, or anyone interested in collaborating on technology and data-driven solutions can start a project. View The Opportunity Project toolkit, a step-by-step guide to the process used by the Department of Commerce team, and adapt it for your own project.  </p>
       <img src="../img/placeholder2.png" alt="">
       <button class="unfilled-button-red"> See the Process </button>
     </div>
@@ -63,30 +67,36 @@
     <div class="usa-grid">
     <div class="usa-width-one-whole">
       <h2> The Opportunity Project in Action </h2>
-      <p class="constrained-p"> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+      <p class="constrained-p"> Since launching in 2016, The Opportunity Project has yielded dozens of new digital tools that help solve problems like connecting veterans and their families with jobs, connecting people experiencing homelessness with services and shelter, and rebuilding rural economies. </p>
     </div>
-      <div class="usa-width-one-third">
-        <h3>Find Home</h3>
-        <p> Helping low income families overcome the stress of finding affordable housing, this tool combines transit access, walkability and school information into one unique feed of available properties.</p>
-        <img src="../img/placeholder4.png" alt="">
-      </div>
-      <div class="usa-width-one-third">
-        <h3>Find Home</h3>
-        <p> Helping low income families overcome the stress of finding affordable housing, this tool combines transit access, walkability and school information into one unique feed of available properties.</p>
-        <img src="../img/placeholder4.png" alt="">
-      </div>
-      <div class="usa-width-one-third">
-        <h3>Find Home</h3>
-        <p> Helping low income families overcome the stress of finding affordable housing, this tool combines transit access, walkability and school information into one unique feed of available properties.</p>
-        <img src="../img/placeholder4.png" alt="">
-      </div>
+      <a href="https://opendata.testing.devnetcloud.com/#/home">
+        <div class="usa-width-one-third">
+          <h3>Cisco</h3>
+          <p>Uses American Community Survey Data from the US Census Bureau to drive awareness of Census data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.</p>
+          <img src="../img/data-consumers/cisco.png" alt="">
+        </div>
+      </a>
+      <a href="https://www.findmyspot.org">
+        <div class="usa-width-one-third">
+          <h3>My City Data Learning tool</h3>
+          <p> Uses data sets from the DC Department of Human Services to help youth experiencing homelessness find and access services in the DC area.</p>
+          <img src="../img/data-consumers/excella.png" alt="">
+        </div>
+      </a>
+      <a href="https://intel.ecivis.com">
+        <div class="usa-width-one-third">
+          <h3>Grants Intelligence</h3>
+          <p> Uses CFDA, USA Spending, Single Audit, and Census data to help  local, state, federal, and tribal governments navigate federal grants and maximize the ROI of federal grant dollars.</p>
+          <img src="../img/data-consumers/eCivis.png" alt="">
+        </div>
+      </a>
       </div>
     </section>
     <section class="white-section" id="in-the-media">
       <div class="usa-grid">
       <div class="usa-width-one-whole">
         <h2> In the Media </h2>
-        <p class="constrained-p"> Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </p>
+        <p class="constrained-p"> View past press releases, videos, and blogs to learn more about The Opportunity Project and how to get involved. </p>
       </div>
       <div class="usa-width-one-third">
         <h3> The White House </h3>
@@ -110,9 +120,9 @@
         <div class="usa-width-one-whole">
           <ul style="margin-top: 1em">
             <li>Site Map</li>
-            <li>Home</li>
-            <li>See the Projects</li>
-            <li>Get Started</li>        
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">See the Projects</a></li>
+            <li><a href="playbook.html">Get Started</a></li>        
           </ul>
           <ul>
             <li>Resources</li>
@@ -130,5 +140,6 @@
         </div>
       </div>
     </footer>
+<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>

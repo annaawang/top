@@ -3,7 +3,6 @@ $red: #C8002C;
 $dark-blue: #004469;
 $light-blue: #0078AC;
 $gray: #4A4A4A;
-
 $button-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 
 @mixin hoverable() {
@@ -14,6 +13,11 @@ $button-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 p{
 	font-family: 'Source Sans Pro', sans-serif;
   	font-weight: 200;
+  	color: $gray;
+}
+h1{
+	font-size: 25px;
+	color: $gray;
 }
 .constrained-p{
 	max-width: 512px;
@@ -38,9 +42,6 @@ button{
  .unfilled-button-blue{
   	color: $dark-blue;
   }
- .white-section{
- 	color: $gray;
- }
   .blue-section{
   	background-color: $light-blue;
   	color: white;
@@ -153,19 +154,25 @@ nav{
 
 #in-action{
 	.usa-width-one-third{
+		color: white;
 		margin-top: 40px;
 		border: solid 2px #F6F6F6;
 		background-color: rgba(#004469, .2);
 		padding: 40px 22px;
+		margin-right: 13px;
 		p{
 			font-size: 15px;
+			min-height: 154px;
 		}
 		img{
 			width: 283px;
 			height: 202px;
+			margin: auto;
 		}
 		h3{
 			font-size: 18px;
+			font-weight: 600;
+			letter-spacing: .2px;
 		}
 		li{
 			text-transform: uppercase;
@@ -233,9 +240,51 @@ footer{
 			list-style: none;
 			line-height: 1;
 			font-weight: 200;
+			a, a:visited{
+				text-decoration: none;
+				color: #F6F6F6;
+			}
+			a:hover{
+				color: #F6F6F6;
+				opacity: .7;
+			}
 		}
 	}
 	#images{
 		float: right;
+	}
+}
+
+#projects-head{
+	padding-top: 86px;
+	h1, p{
+		color: black;
+	}
+	p{
+		margin-bottom: 25px;
+	}
+}
+
+#gallery-body{
+	.project:hover{
+		@include hoverable;
+	}
+	.project{
+		border: solid 2px $gray;
+		margin-right: 14px;
+		margin-bottom: 28px;
+		padding: 39px 28px 67px 28px;
+
+		img{
+			height: 225px;
+		}
+	}
+	h2{
+		color: black;
+		font-size: 22px;
+		min-height: 84px;
+	}
+	p{
+		min-height: 250px;
 	}
 }

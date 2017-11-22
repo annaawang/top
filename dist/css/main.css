@@ -3691,7 +3691,12 @@ input[type=search] {
 
 p {
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 200; }
+  font-weight: 200;
+  color: #4A4A4A; }
+
+h1 {
+  font-size: 25px;
+  color: #4A4A4A; }
 
 .constrained-p {
   max-width: 512px; }
@@ -3715,9 +3720,6 @@ button {
 
 .unfilled-button-blue {
   color: #004469; }
-
-.white-section {
-  color: #4A4A4A; }
 
 .blue-section {
   background-color: #0078AC;
@@ -3807,17 +3809,23 @@ nav {
     border-right: solid 1px #979797; }
 
 #in-action .usa-width-one-third {
+  color: white;
   margin-top: 40px;
   border: solid 2px #F6F6F6;
   background-color: rgba(0, 68, 105, 0.2);
-  padding: 40px 22px; }
+  padding: 40px 22px;
+  margin-right: 13px; }
   #in-action .usa-width-one-third p {
-    font-size: 15px; }
+    font-size: 15px;
+    min-height: 154px; }
   #in-action .usa-width-one-third img {
     width: 283px;
-    height: 202px; }
+    height: 202px;
+    margin: auto; }
   #in-action .usa-width-one-third h3 {
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: .2px; }
   #in-action .usa-width-one-third li {
     text-transform: uppercase;
     font-size: 12px;
@@ -3873,5 +3881,38 @@ footer {
       list-style: none;
       line-height: 1;
       font-weight: 200; }
+      footer ul li a, footer ul li a:visited {
+        text-decoration: none;
+        color: #F6F6F6; }
+      footer ul li a:hover {
+        color: #F6F6F6;
+        opacity: .7; }
   footer #images {
     float: right; }
+
+#projects-head {
+  padding-top: 86px; }
+  #projects-head h1, #projects-head p {
+    color: black; }
+  #projects-head p {
+    margin-bottom: 25px; }
+
+#gallery-body .project:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+
+#gallery-body .project {
+  border: solid 2px #4A4A4A;
+  margin-right: 14px;
+  margin-bottom: 28px;
+  padding: 39px 28px 67px 28px; }
+  #gallery-body .project img {
+    height: 225px; }
+
+#gallery-body h2 {
+  color: black;
+  font-size: 22px;
+  min-height: 84px; }
+
+#gallery-body p {
+  min-height: 250px; }
