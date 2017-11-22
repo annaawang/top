@@ -1,0 +1,372 @@
+{
+  "data": [
+  {
+    "Title": "FindHome",
+    "Owner": "Loveland",
+    "Category": "housing transportation",
+    "Short-Message": "Helping low income families overcome the stress of finding affordable housing this tool combines transit access, walkability and school information into one unique feed of available properties.",
+    "Image-File": "loveland-screenshot.png",
+    "Gallery-Link": "http://www.findhome.io",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Housing Calculator",
+    "Owner": "Airbnb",
+    "Category": "housing",
+    "Short-Message": "Uses HUD rental data to identify areas that present a high-opportunity for families to supplement their housing costs through renting excess rooms or units.",
+    "Image-File": "airbnb-screenshot.png",
+    "Gallery-Link": "http://airbnb-calculator.herokuapp.com/",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "DATA2GO.NYC",
+    "Owner": "Measure of America",
+    "Category": "housing",
+    "Short-Message":"Measure of America's DATA2GO.NYC is a free mapping and data tool for visualizing Census, state, and city data that can help with Census outreach in NYC communities by answering questions like 'What happens with Census data?' and 'Why does the Census matter to me?'.",
+    "Image-File": "Measure.png",
+    "Gallery-Link": "http://www.measureofamerica.org/SegregatedOpportunity",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "Neighborhood Opportunity",
+    "Owner": "Mapbox",
+    "Category": "housing",
+    "Short-Message": "Uses Fair Market Rent data from HUD, along with OpenStreetMap, to rapidly and easily assess neighborhood family amenities and voucher amounts for Section 8 Housing Seekers.",
+    "Image-File": "mapbox-screenshot.png",
+    "Gallery-Link": "https://www.mapbox.com/labs/opportunity/",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Opportunity Dashboard",
+    "Owner": "Great Schools and Education Cities'",
+    "Category": "education",
+    "Short-Message": "Great Schools and Education Cities' uses college readiness data to measure gaps in access to educational opportunities across student groups to help advocates increase equity.",
+    "Image-File": "great-schools-screenshot.png",
+    "Gallery-Link": "https://projects.invisionapp.com/share/N68M972TG#/screens",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Training Finder",
+    "Owner": "LinkedIn",
+    "Category": "employment education",
+    "Short-Message": "Uses data from eligible training provider lists (ETPL) to surface education options that lead to in-demand careers for job seekers.",
+    "Image-File": "linkedin-screenshot.png",
+    "Gallery-Link": "https://www.linkedin.com/training",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "School ResourceMapper",
+    "Owner": "Data Society/Kitamba",
+    "Category": "education",
+    "Short-Message": "Brings together economic, health center, and community institution data to help school leaders find and develop community partnerships.",
+    "Image-File": "data-society-kitamba-screenshot.png",
+    "Gallery-Link": "http://datasociety.co/kitamba-the-opportunity-project/",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "LiveStories",
+    "Owner": "Livestories",
+    "Category": "education",
+    "Short-Message": "Customizable data briefs use school-level data to help local school districts and education foundations inform parents and the electorate about the need for more funding.",
+    "Image-File": "livestories-screenshot.png",
+    "Gallery-Link": "ttp://www.livestories.com/livestories-iq-and-the-opportunity-project",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "mySidewalk",
+    "Owner": "My Sidewalk",
+    "Category": "transportation health",
+    "Short-Message": "Uses a combination of 30 datasets to generate instant insights that address accessibility of opportunity and emotional well-being for citizens across the county.",
+    "Image-File": "mysidewalk-screenshot.png",
+    "Gallery-Link": "https://theopportunityproject.mysidewalk.com/",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "Create",
+    "Owner": "Create",
+    "Category": "transportation",
+    "Short-Message": "Uses traffic accident and fatality data to provide dynamic location-based visualizations of hazardous traffic corridors for citizens and community decision makers.",
+    "Image-File": "create-screenshot.png",
+    "Gallery-Link": "http://usdot.create.io",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Commuter Map",
+    "Owner": "Split",
+    "Category": "transportation employment",
+    "Short-Message": "Uses commuting data from the LEHD Origin-Destination Employment Statistics, bus & rail transit routes to show commuter flows and gaps in access to transit.",
+    "Image-File": "split-screenshot.png",
+    "Gallery-Link": "http://split.us/opportunity-project",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Findyour.town",
+    "Owner": "Ovela",
+    "Category": "rural",
+    "Short-Message": "Uses live spatial and development funding data from USDA, Census, DOT, and HUD to simplify funding eligibility with virtual story telling of our rural American communities.",
+    "Image-File": "ovela-screenshot.png",
+    "Gallery-Link": "https://findyour.town",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "PAIRIN Pathways",
+    "Owner": "Pairin",
+    "Category": "employment education",
+    "Short-Message": "PAIRIN Pathways leverages numerous private and public data from the US Census Bureau, Department of Labor, O*NET and more, to help veterans translate their developed skills into private sector careers, plus connect them to the education, soft skills development, and employers that can ensure their success.",
+    "Image-File": "PAIRIN.png",
+    "Gallery-Link": "https://www.pairin.com/pairin-pathways/",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Fitbit",
+    "Owner": "Fitbit",
+    "Category": "health",
+    "Short-Message": "Lets users see how average activity relates to common health issues in each state, combining CDC health data with aggregated and anonymous Fitbit activity data from over 10 million users.",
+    "Image-File": "fitbit-screenshot.png",
+    "Gallery-Link": "https://www.fitbit.com/activity-index",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "EARS",
+    "Owner": "University of Oregon",
+    "Category": "health",
+    "Short-Message": "Enables researchers to unobtrusively measure everyday behavior and integrate open data on local hazards & resources to build a risk state detection algorithm that powers precise, life-saving mental health interventions.",
+    "Image-File": "university-of-oregon-screenshot.png",
+    "Gallery-Link": "#",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "TextHelp",
+    "Owner": "Open Medicine Institute",
+    "Category": "health",
+    "Short-Message": "Uses anonymized mental health data from the VA Health System to assess suicide and other risk in patients and guide them through crisis to available support resources.",
+    "Image-File": "textHelp-screenshot.jpg",
+    "Gallery-Link": "#",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Opportunity. hackernest.com",
+    "Owner": "Hackernest",
+    "Category": "employment",
+    "Short-Message": "Uses labor/employment info from multiple federal data sources to help navigate careers in government for Americans.",
+    "Image-File": "hackernest-screenshot.png",
+    "Gallery-Link": "http://opportunity.hackernest.com",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Opportunity Enabler",
+    "Owner": "ESRI",
+    "Category": "housing health transportation rural",
+    "Short-Message": "Uses nationwide opportunity indexes to make search for opportunity more easily obtainable.",
+    "Image-File": "esri-screenshot.png",
+    "Gallery-Link": "http://arcg.is/2aWs865",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "Data.world Workspace",
+    "Owner": "data.world",
+    "Category": "housing health transportation employment education rural",
+    "Short-Message": "Uses data from eleven federal agencies and twelve cities to facilitate finding, viewing and collaborating over data for Opportunity Project sprint participants.",
+    "Image-File": "dataWorld-screenshot.png",
+    "Gallery-Link": "https://data.world/opportunity",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Wolfram Data Repository",
+    "Owner": "Wolfram",
+    "Category": "housing health transportation employment education rural",
+    "Short-Message": "Uses datasets from multiple agencies to help researchers and developers rapidly prototype and deploy tools that address a variety of problems surrounding access to opportunity.",
+    "Image-File": "wolfram-screenshot.png",
+    "Gallery-Link": "#",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "CareerSpark",
+    "Owner": "Flatiron School",
+    "Category": "education employment",
+    "Short-Message": "A mobile application that uses employment statistics and occupational data from the Bureau of Labor Statistics to make career exploration easy and accessible for high school students.",
+    "Image-File": "careerSpark-screenshot.png",
+    "Gallery-Link": "http://apple.co/2cGmRQr",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "Opportunity Score",
+    "Owner": "Redfin",
+    "Category": "housing employment transportation",
+    "Short-Message": "This tool from Redfin shows jobs you can get to in 30 minutes, without a car, from any address.",
+    "Image-File": "redfin-screenshot.jpg",
+    "Gallery-Link": "https://labs.redfin.com/opportunity-score",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "GreatSchools",
+    "Owner": "Great Schools",
+    "Category": "education",
+    "Short-Message": "A collaboration with Zillow to help families find housing near high opportunity schools.",
+    "Image-File": "greatSchools-screenshot.jpg",
+    "Gallery-Link": "https://projects.invisionapp.com/boards/GH1AO5WP2D7JZ/",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "PolicyMap Tool",
+    "Owner": "Policy Map",
+    "Category": "housing",
+    "Short-Message": "A tool that allows users to identify areas of opportunity by specifying their most important priorities.",
+    "Image-File": "policyMap-screenshot.jpg",
+    "Gallery-Link": "http://opportunity.policymap.com/",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "Transit Analyst",
+    "Owner": "Azavea",
+    "Category": "transportation education health",
+    "Short-Message": "An interactive tool from Azavea for exploring transit accessibility to target resources from focus areas.",
+    "Image-File": "transitAnalyst-screenshot.jpg",
+    "Gallery-Link": "http://transitanalyst.com/",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "diversitydatakids.org",
+    "Owner": "diversitydatakids.org",
+    "Category": "housing education health",
+    "Short-Message": "Story maps providing visibility into the affordability of opportunity for children in U.S. metro areas.",
+    "Image-File": "ddk-screenshot.jpg",
+    "Gallery-Link": "http://www.diversitydatakids.org/data/library/49/coi-lai-cob-story-maps",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Baltimore Explorer",
+    "Owner": "Zillow",
+    "Category": "housing",
+    "Short-Message": "A tool by Zillow for exploring the opportunity and growth potential of Baltimore's neighborhoods.",
+    "Image-File": "baltimoreExplorer-screenshot.jpg",
+    "Gallery-Link": "http://files.zillowstatic.com/research/public/Whitehouse_Hackathon/index.html",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "Community Commons",
+    "Owner": "Community Commons",
+    "Category": "housing education health",
+    "Short-Message": "A new tool for finding areas of opportunity through geographic visualizations and reports.",
+    "Image-File": "communityCommons-screenshot.jpg",
+    "Gallery-Link": "http://maps.communitycommons.org/footprint/?project=LOFT",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Streetwyze",
+    "Owner": "Streetwyze",
+    "Category": "housing employment transportation",
+    "Short-Message": "A \"ground-truthing\" neighborhood navigator powered by local knowledge.",
+    "Image-File": "streetwyze-screenshot.jpg",
+    "Gallery-Link": "http://www.streetwyze.com/",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Data2Go.nyc",
+    "Owner": "Data2go.nyc",
+    "Category": "health housing",
+    "Short-Message": "This tool from Measure of America combines various data critical to the well being of New Yorkers.",
+    "Image-File": "measureOfAmerica-screenshot.jpg",
+    "Gallery-Link": "http://data2go.nyc/",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "National Equity Atlas",
+    "Owner": "National Equity Atlas",
+    "Category": "housing",
+    "Short-Message": "A PolicyLink tool to allow comparison of disaggregated demographic indicators.",
+    "Image-File": "nea-screenshot.jpg",
+    "Gallery-Link": "http://www.nationalequityatlas.org/",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "OpenData Network",
+    "Owner": "Socrata",
+    "Category": "housing health transportation employment education rural",
+    "Short-Message": "A tool from Socrata that allows for comparison and similarity detection of geographic regions.",
+    "Image-File": "socrata-screenshot.jpg",
+    "Gallery-Link": "http://www.opendatanetwork.com/region/310M200US12580-310M200US47900/Baltimore_Metro_Area_(MD)-Washington_Metro_Area_(DC-VA-MD-WV)/education/high_school_graduation_rate/2013",
+    "ClearDiv": ""
+  },
+  {
+    "Title": "Affordable Housing Finder",
+    "Owner": "ESRI",
+    "Category": "housing health transportation employment education rural",
+    "Short-Message": "A tool from Esri that shows where opportunities are for low income citizens with children.",
+    "Image-File": "esriAffordableHousing-screenshot.jpg",
+    "Gallery-Link": "http://esrifederal.maps.arcgis.com/apps/webappviewer/index.html?id=852f6731b72f465ab2fbbe76d4269f00",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "Job Crowdsourcing Tool",
+    "Owner": "Ushahidi",
+    "Category": "employment",
+    "Short-Message": "Ushahidi Job Postings combines crowdsourced job reports to share alerts of local job openings.",
+    "Image-File": "ushahidi-screenshot.png",
+    "Gallery-Link": "https://jobpostings.ushahidi.io/",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "My City Data Learning tool",
+    "Owner": "Cisco",
+    "Category": "employment",
+    "Short-Message": "Cisco Devnet's 'My City Data Learning tool’ uses American Community Survey Data from the US Census Bureau to drive awareness of Census data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.",
+    "Image-File": "Cisco.png",
+    "Gallery-Link": "https://opendata.testing.devnetcloud.com/#/home",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "Myspot",
+    "Owner": "Excella",
+    "Category": "employment",
+    "Short-Message": "Excella Consulting's tool, Myspot, uses data sets from the DC Department of Human Services to help youth experiencing homelessness find and access services in the DC area.",
+    "Image-File": "Excella.png",
+    "Gallery-Link": "https://www.findmyspot.org",
+    "ClearDiv": "yes"
+  },
+    {
+    "Title": "Grants Intelligence",
+    "Owner": "eCivis",
+    "Category": "employment",
+    "Short-Message": "eCivis's tool, Grants Intelligence, uses CFDA, USA Spending, Single Audit, and Census data to help  local, state, federal, and tribal governments navigate federal grants and maximize the ROI of federal grant dollars.",
+    "Image-File": "eCivis.png",
+    "Gallery-Link": "https://intel.ecivis.com",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "True Impact: Social Impact Reporting Platform",
+    "Owner": "True Impact",
+    "Category": "employment",
+    "Short-Message": "True Impact used federal data to enhance its Social Impact Reporting Platform, enabling users to automatically query HHS's grants.gov database to find funding opportunities they may qualify for.",
+    "Image-File": "TrueImpact.png",
+    "Gallery-Link": "http://www.trueimpact.com",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "Get Vets Help",
+    "Owner": "CarePartners Plus",
+    "Category": "employment",
+    "Short-Message":"CarePartners Plus's Get Vets Help tool uses Census and HUD datasets and enables veterans to communicate their needs to their care team in real-time, identifying high-risk veterans for suicide, homelessness and substance use for faster follow-up, increased transparency and accountability.",
+    "Image-File": "CarePartners.png",
+    "Gallery-Link": "hwww.carepartnersplus.com",
+    "ClearDiv": "yes"
+  },
+  {
+    "Title": "BayesDB",
+    "Owner": "MIT",
+    "Category": "employment",
+    "Short-Message": "MIT Probabilistic Computing Project's tool Bayes DB is a web-based Artificial Intelligence product that helps journalists, activists, philanthropists, public servants, and policy advocates to search U.S. Census Bureau, FBI, and CDC public data on demographics, criminal justice, public health and elections.",
+    "Image-File": "MIT.png",
+    "Gallery-Link": "https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0",
+    "ClearDiv": ""
+  },
+    {
+    "Title": "WeCount",
+    "Owner": "IBM",
+    "Category": "employment",
+    "Short-Message": "IBM's tool WeCount is an iOS application to support the logistical planning, coordination, execution, and data collection effort undertaken by Census employees conducting the Homeless Count.",
+    "Image-File": "IBM.png",
+    "Gallery-Link": "https://jobpostings.ushahidi.io/",
+    "ClearDiv": "yes"
+  }
+] }

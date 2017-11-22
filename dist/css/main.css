@@ -360,31 +360,6 @@ td,
 th {
   padding: 0; }
 
-/* stylelint-disable at-rule-empty-line-before */
-@font-face {
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/sourcesanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-light-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-light-webfont.woff") format("woff"), url("../fonts/sourcesanspro-light-webfont.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/sourcesanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-regular-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-regular-webfont.woff") format("woff"), url("../fonts/sourcesanspro-regular-webfont.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Source Sans Pro";
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/sourcesanspro-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-italic-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-italic-webfont.woff") format("woff"), url("../fonts/sourcesanspro-italic-webfont.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "Source Sans Pro";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/sourcesanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sourcesanspro-bold-webfont.woff2") format("woff2"), url("../fonts/sourcesanspro-bold-webfont.woff") format("woff"), url("../fonts/sourcesanspro-bold-webfont.ttf") format("truetype"); }
-
 @font-face {
   font-family: "Merriweather";
   font-style: normal;
@@ -410,31 +385,6 @@ th {
   src: url("../fonts/merriweather-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/merriweather-bold-webfont.woff2") format("woff2"), url("../fonts/merriweather-bold-webfont.woff") format("woff"), url("../fonts/merriweather-bold-webfont.ttf") format("truetype"); }
 
 /* stylelint-enable */
-html {
-  box-sizing: border-box; }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit; }
-
-body {
-  background-color: #ffffff;
-  overflow-x: hidden; }
-
-.lt-ie9 * {
-  filter: none !important;
-  /* stylelint-disable-line declaration-no-important */ }
-
-[hidden] {
-  display: none !important;
-  /* stylelint-disable-line declaration-no-important */ }
-
-*:focus,
-.usa-focus {
-  outline: 2px dotted #aeb0b5;
-  outline-offset: 3px; }
-
 .usa-grid,
 .usa-grid-full {
   max-width: 1200px;
@@ -688,6 +638,31 @@ body {
 .usa-sr-only {
   position: absolute;
   left: -999em; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+body {
+  background-color: #ffffff;
+  overflow-x: hidden; }
+
+.lt-ie9 * {
+  filter: none !important;
+  /* stylelint-disable-line declaration-no-important */ }
+
+[hidden] {
+  display: none !important;
+  /* stylelint-disable-line declaration-no-important */ }
+
+*:focus,
+.usa-focus {
+  outline: 2px dotted #aeb0b5;
+  outline-offset: 3px; }
 
 /* stylelint-disable selector-no-qualifying-type */
 .usa-button,
@@ -1273,12 +1248,11 @@ select {
 
 .usa-input-required:after {
   color: #981b1e;
-  content: ' (*Required)'; }
+  content: ' (*required)'; }
 
 .usa-input-optional:after {
   color: #757575;
-  content: ' - optional';
-  font-style: italic; }
+  content: ' (optional)'; }
 
 label {
   display: block;
@@ -1297,7 +1271,15 @@ select {
   background-image: url("../img/arrow-both.svg");
   background-position: right 1.3rem center;
   background-repeat: no-repeat;
-  background-size: 1.3rem; }
+  background-size: 1rem;
+  padding-right: 3rem; }
+  select::-ms-expand {
+    display: none; }
+  select:-webkit-autofill {
+    appearance: menulist; }
+  select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000000; }
 
 option:first-child {
   font-weight: 700; }
@@ -1526,31 +1508,43 @@ p + ol {
 
 table {
   border-spacing: 0;
-  margin: 2em 0;
-  min-width: 100%; }
-  table thead th,
-  table thead td {
-    background-color: #f1f1f1; }
-  table th {
-    text-align: left; }
-  table tbody th {
-    font-weight: 400; }
-  table th,
-  table td {
-    background-color: #ffffff;
-    border: 1px solid #5b616b;
-    padding: 1.5rem; }
+  margin: 2em 0; }
 
-.usa-table-borderless thead tr {
-  background-color: transparent; }
+thead th {
+  font-weight: 700; }
+
+thead th,
+thead td {
+  background-color: #f1f1f1; }
+
+th {
+  text-align: left; }
+
+th,
+td {
+  background-color: #ffffff;
+  border: 1px solid #5b616b;
+  font-weight: 400;
+  padding: 1rem 1.5rem; }
 
 .usa-table-borderless thead th {
+  background-color: transparent;
   border-top: 0; }
 
 .usa-table-borderless th,
 .usa-table-borderless td {
   border-left: 0;
   border-right: 0; }
+
+.usa-table-borderless th:first-child {
+  padding-left: 0; }
+
+caption {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
+  margin-bottom: 1.2rem;
+  text-align: left; }
 
 html {
   font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
@@ -1569,6 +1563,9 @@ a {
   text-decoration: underline; }
   a:hover, a:active {
     color: #205493; }
+  a:focus {
+    outline: 2px dotted #aeb0b5;
+    outline-offset: 3px; }
   a:visited {
     color: #4c2c92; }
 
@@ -1606,13 +1603,15 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   clear: both;
   font-family: "Merriweather", "Georgia", "Cambria", "Times New Roman", "Times", serif;
   line-height: 1.3;
   margin-bottom: .5em;
   margin-top: 1.5em; }
+
+h6 {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif; }
 
 h1 {
   font-size: 4rem;
@@ -1646,13 +1645,13 @@ address,
 dfn {
   font-style: normal; }
 
-.usa-content p:not(.usa-font-lead),
+.usa-content p,
 .usa-content ul:not(.usa-accordion):not(.usa-accordion-bordered),
 .usa-content ol:not(.usa-accordion):not(.usa-accordion-bordered) {
-  max-width: 53rem; }
+  max-width: 66ch; }
 
 .usa-content-list {
-  max-width: 53rem; }
+  max-width: 66ch; }
 
 .usa-sans p,
 .usa-sans a,
@@ -2031,7 +2030,7 @@ dfn {
   background-image: none; }
 
 .usa-alert-paragraph {
-  width: 53rem; }
+  width: 66ch; }
 
 .usa-alert {
   margin-top: 1.5em; }
@@ -2500,7 +2499,7 @@ li.usa-footer-primary-content {
     margin-left: 0; }
 
 .usa-footer-big ul {
-  padding-bottom: 2.5rem; }
+  padding-bottom: 2.4rem; }
   @media screen and (min-width: 600px) {
     .usa-footer-big ul {
       padding-bottom: 0; } }
@@ -2509,8 +2508,10 @@ li.usa-footer-primary-content {
     @media screen and (min-width: 600px) {
       .usa-footer-big ul:last-child {
         border-bottom: none; } }
-  .usa-footer-big ul li {
-    line-height: 2em; }
+  .usa-footer-big ul li:not(.usa-footer-primary-link) {
+    line-height: 1.3;
+    padding-bottom: 0.35em;
+    padding-top: 0.35em; }
   .usa-footer-big ul .usa-footer-primary-link {
     background-image: url("../img/arrow-down.png");
     background-image: url("../img/arrow-down.svg");
@@ -3485,24 +3486,6 @@ input.usa-input-medium {
     clear: both;
     content: "";
     display: block; }
-  .usa-search [type=search],
-  .usa-search .usa-search-input {
-    padding-top: 0;
-    padding-bottom: 0;
-    -webkit-appearance: none;
-    border-bottom-right-radius: 0;
-    border-right: none;
-    border-top-right-radius: 0;
-    box-sizing: border-box;
-    float: left;
-    font-size: 1.4rem;
-    height: 3.3rem;
-    margin: 0;
-    width: calc(100% - 4.5rem); }
-    @media screen and (min-width: 481px) {
-      .usa-search [type=search],
-      .usa-search .usa-search-input {
-        width: calc(100% - 8.5rem); } }
   .usa-search [type=submit],
   .usa-search .usa-search-submit {
     background-image: url("../img/search.png");
@@ -3520,12 +3503,6 @@ input.usa-input-medium {
       .usa-search .usa-search-submit {
         background-image: none;
         width: 8.5rem; } }
-  .usa-search .usa-search-submit-text {
-    position: absolute;
-    left: -999em; }
-    @media screen and (min-width: 481px) {
-      .usa-search .usa-search-submit-text {
-        position: static; } }
   @media screen and (min-width: 481px) {
     .usa-search.usa-search-big [type=search],
     .usa-search.usa-search-big .usa-search-input {
@@ -3552,6 +3529,36 @@ input.usa-input-medium {
     .usa-search.usa-search-small.usa-sr-only {
       left: auto;
       position: relative; } }
+
+input[type=search] {
+  /* stylelint-disable-line selector-no-qualifying-type */
+  box-sizing: border-box;
+  -webkit-appearance: none; }
+
+[type=search],
+.usa-search-input {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+  border-top-right-radius: 0;
+  box-sizing: border-box;
+  float: left;
+  font-size: 1.4rem;
+  height: 3.3rem;
+  margin: 0;
+  width: calc(100% - 4.5rem); }
+  @media screen and (min-width: 481px) {
+    [type=search],
+    .usa-search-input {
+      width: calc(100% - 8.5rem); } }
+
+.usa-search-submit-text {
+  position: absolute;
+  left: -999em; }
+  @media screen and (min-width: 481px) {
+    .usa-search-submit-text {
+      position: static; } }
 
 .usa-section {
   padding-top: 3rem;
@@ -3660,6 +3667,10 @@ input.usa-input-medium {
     top: 0;
     transition: all 0.2s ease-in-out; }
 
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200; }
+
 .constrained-p {
   max-width: 512px; }
 
@@ -3709,11 +3720,11 @@ nav {
     margin-top: 22px; }
     nav #links a {
       font-size: 16px;
-      font-weight: 700;
+      font-weight: 600;
       text-decoration: none;
       color: #F6F6F6;
       margin-right: 76px;
-      letter-spacing: .2px; }
+      letter-spacing: .5px; }
 
 #splash {
   text-align: center;
@@ -3736,7 +3747,9 @@ nav {
     text-align: center;
     margin: auto;
     font-size: 20px;
-    margin-bottom: 42px; }
+    margin-bottom: 42px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200; }
   #splash #learn-more, #splash #start-a-project {
     display: inline; }
   #splash #learn-more {
@@ -3815,9 +3828,13 @@ footer {
   footer #census-logo {
     margin-top: 30px; }
   footer ul {
+    color: #F6F6F6;
     float: left;
     text-transform: uppercase; }
+    footer ul li:first-child {
+      font-weight: 400; }
     footer ul li {
       font-size: 14px;
       list-style: none;
-      line-height: 1; }
+      line-height: 1;
+      font-weight: 200; }
