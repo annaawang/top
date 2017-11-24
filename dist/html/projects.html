@@ -14,10 +14,10 @@
     <nav>
     <div class="usa-grid-wide">
       <div class="usa-width-one-whole">
-        <img src="../img/logo.png" alt="The Opportunity Project Logo" id="logo">
+        <a href="index.html"><img src="../img/logo.png" alt="The Opportunity Project Logo" id="logo"></a>
             <div id="links">
               <a href="index.html"> Home </a>
-              <a href="projects.html"> See the Projects </a>
+              <a href="#"> See the Projects </a>
               <a href="playbook.html"> Get Started </a>
             </div>
       </div>
@@ -28,6 +28,18 @@
           <h1> See the Projects </h1>
           <p class="constrained-p"> Learn about tools built by The Opportunity Project cohorts and browse all of the tools below </p> </div>
       </div>
+            <div class="usa-grid">
+              <div class="filters-div usa-width-one-whole">
+              <h2> Browse by community need </h2>
+              <button class="filter showAll" data-filter="all"> Show All</button>
+              <button class="filter otherFilters" data-filter=".housing"> Housing</button>
+              <button class="filter otherFilters" data-filter=".education"> Education</button>
+              <button class="filter otherFilters" data-filter=".health"> Health</button> 
+              <button class="filter otherFilters" data-filter=".transportation"> Transportation</button>     
+              <button class="filter otherFilters" data-filter=".employment"> Employment</button>
+              <button class="filter otherFilters" data-filter=".rural"> Rural</button>
+            </div>
+          </div>
 
       <div class="usa-grid">
         <div id="gallery-body">
@@ -50,6 +62,30 @@
     <script src="../js/main.js"></script>
     <script type="text/javascript" src="../js/HandlebarsCode/galleryCode.js"></script>
     <script src="../js/filter.js"></script>
-  
+    <footer>
+      <div class="usa-grid">
+        <div class="usa-width-one-whole">
+          <ul style="margin-top: 1em">
+            <li>Site Map</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">See the Projects</a></li>
+            <li><a href="playbook.html">Get Started</a></li>        
+          </ul>
+          <ul>
+            <li>Resources</li>
+            <li>Census Data Academy</li>
+            <li>Data.gov</li>
+            <li>Data and Privacy Policy</li>
+            <li>Visit Us on Github</li>       
+          </ul>
+          <div id="images">
+            <img src="../img/pif.png" alt="Presidential Innovation Fellows Logo">
+            <img src="../img/commerce.png" alt="Department of Commerce Logo">
+            <img src="../img/hud.png" alt="Department Housing and Urban Development Logo">
+            <img src="../img/census.png" alt="United States Census Logo" id="census-logo">
+          </div>
+        </div>
+      </div>
+    </footer>  
 </body>
 </html>
