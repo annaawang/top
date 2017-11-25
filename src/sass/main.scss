@@ -316,6 +316,10 @@ nav{
 		border-radius: 25px;
 		margin-bottom: -8px;
 	}
+	.current-circle{
+		background-color: $light-blue;
+		box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+	}
 	.dark-circle{
 		border: solid 1px $dark-blue;
 	}

@@ -3945,6 +3945,9 @@ nav {
       width: 25px;
       border-radius: 25px;
       margin-bottom: -8px; }
+    #playbook-nav li .current-circle {
+      background-color: #0078AC;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
     #playbook-nav li .dark-circle {
       border: solid 1px #004469; }
     #playbook-nav li .light-circle {
