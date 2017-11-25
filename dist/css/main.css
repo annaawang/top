@@ -4301,3 +4301,10 @@ footer {
 
 #form-a-team h3:first-child {
   padding-top: 0px; }
+
+.data-inventory table {
+  width: 737px;
+  margin-left: -20px;
+  font-size: 15px; }
+  .data-inventory table a:visited {
+    color: #0078AC; }
