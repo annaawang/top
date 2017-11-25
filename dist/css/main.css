@@ -3992,6 +3992,7 @@ nav {
     letter-spacing: .025px;
     margin-bottom: 0px; }
   .playbook-section h1 {
+    color: black;
     font-size: 40px;
     margin-top: 13px;
     margin-bottom: 26px;
@@ -4292,3 +4293,6 @@ footer {
 
 #form-a-team h3 {
   padding-top: 50px; }
+
+#form-a-team h3:first-child {
+  padding-top: 0px; }
