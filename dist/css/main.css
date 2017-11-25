@@ -4230,3 +4230,6 @@ footer {
         opacity: .7; }
   footer #images {
     float: right; }
+
+#section-07 {
+  border-bottom: solid 3px white; }
