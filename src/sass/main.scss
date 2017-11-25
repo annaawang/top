@@ -575,10 +575,6 @@ nav{
 		height: 172px;
 	}
 }
-.margin-bottom, #slack-resource, #stack-overflow, #stack-exchange, #slack, #git, #launch, #demo{
-	margin-bottom: 300px;
-}
-
 
 .scenario{
 	display: block;
@@ -704,4 +700,11 @@ a:focus {
 	.checklist{
 		margin-bottom: 300px;
 	}
+}
+#see-more-scenarios:hover{
+	cursor: pointer;
+	opacity:.8;
+}
+.hidden{
+	display: none;
 }

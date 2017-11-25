@@ -14,6 +14,8 @@
           $.scrollify({
             section : ".snap-scroll",
             interstitialSection : "nav",
+            setHeights: false,
+            standardScrollElements : "#user-scenarios",
           });
         });
       </script>
@@ -161,8 +163,8 @@
                 <p>Use these IDEO Design Methods to narrow down your problem statement.</p>
             </div>
         </div>
-        <div class="usa-grid">
-            <h3 class="resources" id="user-scenarios"> User Scenarios </h3>
+        <div class="usa-grid" id="user-scenarios">
+            <h3 class="resources"> User Scenarios </h3>
             <hr align="left">
             <p> Use the user-scenarios as examples of user-generated data. You may want to work with user advocates and end users to create similar scenarios that provide a detailed picture of the problem you’re tackling. </p>
             <div>
@@ -206,7 +208,7 @@
   
   <label for="Samira" class="read-more-trigger"></label>
 </div>
-<div class="scenario">
+<div class="scenario hidden">
   <input type="checkbox" class="read-more-state" id="barb" />
 
   <ul class="read-more-wrap">
@@ -223,7 +225,7 @@
   
   <label for="barb" class="read-more-trigger"></label>
 </div>
-<div class="scenario">
+<div class="scenario hidden">
   <input type="checkbox" class="read-more-state" id="Gerald" />
 
   <ul class="read-more-wrap">
@@ -236,7 +238,7 @@
   
   <label for="Gerald" class="read-more-trigger"></label>
 </div>
-<div class="scenario">
+<div class="scenario hidden">
   <input type="checkbox" class="read-more-state" id="James" />
 
   <ul class="read-more-wrap">
@@ -251,7 +253,7 @@
   
   <label for="James" class="read-more-trigger"></label>
 </div>
-<div class="scenario">
+<div class="scenario hidden">
   <input type="checkbox" class="read-more-state" id="Jen" />
 
   <ul class="read-more-wrap">
@@ -266,7 +268,7 @@
   
   <label for="Jen" class="read-more-trigger"></label>
 </div>
-<div class="scenario">
+<div class="scenario hidden">
   <input type="checkbox" class="read-more-state" id="Loretta" />
 
   <ul class="read-more-wrap">
@@ -277,7 +279,7 @@
   
   <label for="Loretta" class="read-more-trigger"></label>
 </div>
-<div class="scenario">
+<div class="scenario hidden">
   <input type="checkbox" class="read-more-state" id="Lynn" />
 
   <ul class="read-more-wrap">
@@ -290,7 +292,7 @@
   
   <label for="Lynn" class="read-more-trigger"></label>
 </div>
-<div class="scenario">
+<div class="scenario hidden">
   <input type="checkbox" class="read-more-state" id="Miles" />
 
   <ul class="read-more-wrap">
@@ -306,7 +308,7 @@
   
   <label for="Miles" class="read-more-trigger"></label>
 </div>
-<div class="scenario">
+<div class="scenario hidden">
   <input type="checkbox" class="read-more-state" id="Tanya" />
 
   <ul class="read-more-wrap">
@@ -322,7 +324,7 @@
   <label for="Tanya" class="read-more-trigger"></label>
 </div>
 </div>
-<p class="final-word" id="see-more-scenarios"> See more user scenarios </p>
+<p class="final-word" id="see-more-scenarios" onClick="showMore()">See more user scenarios</p>
 
 </div>
   </section>
@@ -558,5 +560,6 @@
     <script src="js/smooth-scroll.js"></script>
     <script src="js/playbook-nav.js"></script>
     <script src="js/jquery.scrollify.min.js"></script>
+    <script src="js/show-more.js"></script>
 </body>
 </html>

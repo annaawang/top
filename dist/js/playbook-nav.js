@@ -17,8 +17,8 @@ function currentSection(section, string) {
   }
 }
 
-$(window).scroll(function() {
-    if (touching($("#intro"), $("#playbook-nav")) ||
+function setNav(){
+      if (touching($("#intro"), $("#playbook-nav")) ||
         touching($("#02"), $("#playbook-nav")) ||
         touching($("#04"), $("#playbook-nav")) ||
         touching($("#06"), $("#playbook-nav"))
@@ -45,5 +45,11 @@ $(window).scroll(function() {
     currentSection($("#05"), "#05");
     currentSection($("#06"), "#06");
     currentSection($("#section-07"), "#section-07");
+}
 
+$(document).ready(function(){
+  setNav();
+  $(window).scroll(function() {
+      setNav();
+    });
 });
