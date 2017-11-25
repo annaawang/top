@@ -3881,20 +3881,24 @@ nav {
     border: solid 2px #4A4A4A;
     margin-right: 14px;
     margin-bottom: 28px;
-    padding: 39px 28px 67px 28px; }
-    #gallery-body .project:nth-child(3n) {
-      margin-right: 0px; }
+    padding: 22px 22px; }
     #gallery-body .project img {
-      height: 225px; }
+      height: 159px;
+      float: right;
+      margin-top: -30px; }
   #gallery-body h2 {
     color: black;
     font-size: 22px;
-    min-height: 84px; }
+    width: 100%;
+    float: left;
+    margin-bottom: 6px; }
   #gallery-body p {
-    min-height: 250px; }
-
-.project:nth-child(3n) {
-  margin-right: 0px; }
+    width: 373px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #4A4A4A; }
 
 .filters-div h2 {
   text-transform: uppercase;
