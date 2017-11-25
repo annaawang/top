@@ -80,6 +80,10 @@ nav{
 	#links{
 		float: right;
 		margin-top: 22px;
+			:hover{
+				cursor: pointer;
+				opacity: .8;
+			}
 			a{
 				font-size: 16px;
 				font-weight: 600;
@@ -529,6 +533,9 @@ nav{
 		display: block;
 		margin-top: 100px;
 		margin-bottom: 50px;
+		hr{
+			margin-bottom: 23px;
+		}
 	}
 	.role{
 		clear: both;
@@ -730,7 +737,7 @@ a:focus {
 			font-size: 14px;
 			list-style: none;
 			line-height: 1;
-			font-weight: 200;
+			font-weight: 100;
 			a, a:visited{
 				text-decoration: none;
 				color: #F6F6F6;

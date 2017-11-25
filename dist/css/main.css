@@ -3752,6 +3752,9 @@ nav {
   nav #links {
     float: right;
     margin-top: 22px; }
+    nav #links :hover {
+      cursor: pointer;
+      opacity: .8; }
     nav #links a {
       font-size: 16px;
       font-weight: 600;
@@ -4110,6 +4113,8 @@ nav {
     display: block;
     margin-top: 100px;
     margin-bottom: 50px; }
+    .playbook-section #roles hr {
+      margin-bottom: 23px; }
   .playbook-section .role {
     clear: both;
     margin-bottom: 17px; }
@@ -4271,7 +4276,7 @@ footer {
       font-size: 14px;
       list-style: none;
       line-height: 1;
-      font-weight: 200; }
+      font-weight: 100; }
       footer ul li a, footer ul li a:visited {
         text-decoration: none;
         color: #F6F6F6; }
