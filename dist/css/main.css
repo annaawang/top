@@ -4289,7 +4289,7 @@ footer {
 #section-07 {
   border-bottom: solid 3px white; }
 
-#see-more-scenarios:hover {
+#see-more-scenarios:hover, #see-more-data:hover {
   cursor: pointer;
   opacity: .8; }
 
@@ -4308,3 +4308,9 @@ footer {
   font-size: 15px; }
   .data-inventory table a:visited {
     color: #0078AC; }
+
+.data-hidden {
+  display: none; }
+
+#see-more-data {
+  margin-top: 11px; }

@@ -756,7 +756,7 @@ a:focus {
 #section-07{
 	border-bottom: solid 3px white;
 }
-#see-more-scenarios:hover{
+#see-more-scenarios:hover, #see-more-data:hover{
 	cursor: pointer;
 	opacity:.8;
 }
@@ -780,4 +780,10 @@ a:focus {
 			color: $light-blue;
 		}
 	}
+}
+.data-hidden{
+	display: none;
+}
+#see-more-data{
+	margin-top: 11px;
 }
