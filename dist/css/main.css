@@ -3971,7 +3971,7 @@ nav {
   #intro button {
     margin-top: 72px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5); }
-  #intro button:last-child {
+  #intro #learn-more {
     background-color: #004469; }
 
 .playbook-section {
