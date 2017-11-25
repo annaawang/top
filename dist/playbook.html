@@ -9,10 +9,14 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/uswds.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,400,600,700" rel="stylesheet">
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
+      <script>
+        $(function() {
+          $.scrollify({
+            section : ".snap-scroll",
+            interstitialSection : "nav",
+          });
+        });
+      </script>
   </head>
 
   <body>
@@ -42,7 +46,7 @@
         </ul>
         </div>
     </div>
-  <section id="intro">
+  <section id="intro" class="snap-scroll">
       <div class="usa-grid">
           <div class="usa-width-one-whole">
             <h1> The Opportunity Project </h1>
@@ -57,7 +61,7 @@
         </div>
     </div>
   </section>
-    <section id="01" class="blue playbook-section">
+    <section id="01" class="blue playbook-section snap-scroll" >
       <div class="usa-grid">
           <div class="usa-width-one-whole">
             <h3> Step 01 </h3>
@@ -70,12 +74,12 @@
             </ul>
             <h3 class="resources"> Resources </h3>
             <hr align="left">
-            <div class="usa-width-one-third resource">
+            <div class="usa-width-one-third resource  margin-bottom">
                 <a href="https://data.world/opportunity/problem-statements"> <img src="img/resources/1.1.png" target="_blank"> </a>
                 <h1>Problem Statements Defined by Federal Agencies</h1>
                 <p>The problem statements can serve as a starting point for your team. Work with local experts and user advocates to narrow or revise the scope for your own project.</p>
             </div>
-            <div class="usa-width-one-third resource">
+            <div class="usa-width-one-third resource margin-bottom">
                 <a href="#user-scenarios"><img src="img/resources/1.2.png"></a>
                 <h1>Detailed User Scenarios</h1>
                 <p>The user scenarios were written by user advocates and people with lived experiences, and they provide examples of real-world challenges and the stories behind them from the end user’s perspective.</p>
@@ -83,7 +87,7 @@
         </div>
     </div>
   </section>
-      <section id="02" class="white playbook-section">
+      <section id="02" class="white playbook-section snap-scroll">
       <div class="usa-grid">
           <div class="usa-width-one-whole">
             <h3> Step 02 </h3>
@@ -111,7 +115,7 @@
             </div>
         </div>
       <div class="usa-grid">
-            <div class="usa-width-one-third resource">
+            <div class="usa-width-one-third resource" id="slack-resource" >
                 <a href="https://opportunity-slack.herokuapp.com/" target="_blank"><img src="img/resources/2.3.png"></a>
                 <h1>Slack Community</h1>
                 <p>Join our online Slack community to recruit collaborators and chat with others. Start a conversation by location, issue, or anything else!</p>
@@ -120,7 +124,7 @@
         </div>
     </div>
   </section>
-    <section id="03" class="blue playbook-section">
+    <section id="03" class="blue playbook-section snap-scroll">
       <div class="usa-grid">
           <div class="usa-width-one-whole">
             <h3> Step 03 </h3>
@@ -318,11 +322,11 @@
   <label for="Tanya" class="read-more-trigger"></label>
 </div>
 </div>
-<p class="final-word"> See more user scenarios </p>
+<p class="final-word" id="see-more-scenarios"> See more user scenarios </p>
 
 </div>
   </section>
-      <section id="04" class="white playbook-section">
+      <section id="04" class="white playbook-section snap-scroll">
       <div class="usa-grid">
           <div class="usa-width-one-whole">
             <h3> Step 04 </h3>
@@ -411,12 +415,12 @@
                 <p>Kaggle is a community of 600K data scientists that have posted a number of USG datasets and great tutorials for new data scientists.</p>
             </div>
         </div>
-        <div class="usa-width-one-third resource">
+        <div class="usa-width-one-third resource" id="stack-overflow">
                 <a href="https://stackoverflow.com/" target="_blank"><img src="img/resources/4.7.png"></a>
                 <h1>Stack Overflow</h1>
                 <p> Stack Overflow is also a great tool where many members of the public ask questions relevant to federal and local data sets.</p>
             </div>
-            <div class="usa-width-one-third resource">
+            <div class="usa-width-one-third resource" class="margin-bottom" id="stack-exchange">
                 <a href="https://opendata.stackexchange.com/" target="_blank"><img src="img/resources/4.8.png"></a>
                 <h1>Stack Exchange</h1>
                 <p>Stack Exchange has a vibrant open data community, which is a great place to come with questions and find early answers to your data and developer-related questions.</p>
@@ -426,7 +430,7 @@
         </div>
     </div>
   </section>
-      <section id="05" class="blue playbook-section">
+      <section id="05" class="blue playbook-section snap-scroll">
       <div class="usa-grid">
           <div class="usa-width-one-whole">
             <h3> Step 05 </h3>
@@ -458,12 +462,12 @@
             </ul>
             <h3 class="resources"> Resources </h3>
             <hr align="left">
-            <div class="usa-width-one-third resource">
+            <div class="usa-width-one-third resource" id="slack">
                 <a href="https://opportunity-slack.herokuapp.com/" target="_blank"><img src="img/resources/5.1.png"></a>
                 <h1>Slack</h1>
                 <p>Identify community leaders and other collaborators on Slack to provide feedback on work in progress.</p>
             </div>
-            <div class="usa-width-one-third resource">
+            <div class="usa-width-one-third resource" class="margin-bottom" id="git">
                 <a href="https://github.com/uscensusbureau/opportunity" target="_blank"><img src="img/resources/5.2.png"></a>
                 <h1>Github</h1>
                 <p>Software developers can use Github to share code, ask questions, post new suggested data sets, share feedback on data, and more. Github is also an invaluable tool for logging issues or bug fixes that need to be addressed.</p>
@@ -471,7 +475,7 @@
         </div>
     </div>
   </section>
-    <section id="06" class="white playbook-section">
+    <section id="06" class="white playbook-section snap-scroll">
       <div class="usa-grid">
           <div class="usa-width-one-whole">
             <h3> Step 06 </h3>
@@ -494,12 +498,12 @@
             </ul>
             <h3 class="resources"> Resources </h3>
             <hr align="left">
-            <div class="usa-width-one-third resource">
+            <div class="usa-width-one-third resource" id="launch">
                 <a href="https://www.youtube.com/watch?v=rwES25_sL0E&feature=youtu.be" target="_blank"><img src="img/resources/6.1.png"></a>
                 <h1>Launch event</h1>
                 <p>Watch the video from the launch event in March 2016 of the Opportunity Project.</p>
             </div>
-            <div class="usa-width-one-third resource">
+            <div class="usa-width-one-third resource" id="demo">
                 <a href="https://www.youtube.com/watch?v=uqIiMj2S_Vk" target="_blank"><img src="img/resources/6.2.png"></a>
                 <h1>Demo Day 2016</h1>
                 <p>Watch the video from our rollout event and demo in October 2016.</p>
@@ -507,7 +511,7 @@
         </div>
     </div>
 </section>
-      <section id="section-07" class="blue playbook-section">
+      <section id="section-07" class="blue playbook-section snap-scroll">
       <div class="usa-grid">
           <div class="usa-width-one-whole">
             <h3> Step 07 </h3>
@@ -553,5 +557,6 @@
     </footer>
     <script src="js/smooth-scroll.js"></script>
     <script src="js/playbook-nav.js"></script>
+    <script src="js/jquery.scrollify.min.js"></script>
 </body>
 </html>

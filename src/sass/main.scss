@@ -55,7 +55,6 @@ button{
   	}
 }
  .white-section, .blue-section{
-
   	padding: 270px 0px;
  	h2{
  		font-size: 25px;
@@ -332,6 +331,7 @@ nav{
 	}
 }
 #intro{
+	margin-top: 0px;
 	padding-bottom: 99px;
 	h1{
 		font-size: 25px;
@@ -396,6 +396,7 @@ nav{
   	}
   	.resources{
   		margin-top: 58px;
+  		display: block;
   	}
   	hr + p { 
 		font-size: 15px;
@@ -574,8 +575,13 @@ nav{
 		height: 172px;
 	}
 }
+.margin-bottom, #slack-resource, #stack-overflow, #stack-exchange, #slack, #git, #launch, #demo{
+	margin-bottom: 300px;
+}
+
 
 .scenario{
+	display: block;
 	max-width: 737px;
 	background-color: white;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
@@ -695,4 +701,7 @@ a:focus {
 
 #section-07{
 	border-bottom: solid 3px white;
+	.checklist{
+		margin-bottom: 300px;
+	}
 }

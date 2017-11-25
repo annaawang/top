@@ -24,6 +24,7 @@
   "dependencies": {
     "handlebars": "^4.0.11",
     "jquery": "^3.2.1",
+    "jquery-scrollify": "^1.0.17",
     "slick-carousel": "^1.8.1"
   }
 }
