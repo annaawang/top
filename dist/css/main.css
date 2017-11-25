@@ -3813,6 +3813,8 @@ nav {
       margin-bottom: 57px; }
   #what-is .call-to-action #department-of-commerce {
     border-right: solid 1px #979797; }
+    #what-is .call-to-action #department-of-commerce p {
+      min-height: 216px; }
 
 #in-action .usa-width-one-third {
   color: white;

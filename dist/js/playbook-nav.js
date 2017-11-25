@@ -25,7 +25,7 @@ $(window).scroll(function() {
     if (touching($("#01"), $("#playbook-nav")) ||
         touching($("#03"), $("#playbook-nav")) ||
         touching($("#05"), $("#playbook-nav")) ||
-        touching($("#07"), $("#playbook-nav"))
+        touching($("#section-07"), $("#playbook-nav"))
       ){
       $( "#playbook-nav > li > a > div" ).addClass( "light-circle" );
       $( "#playbook-nav > li > a > div" ).removeClass( "dark-circle" );
