@@ -4105,6 +4105,44 @@ nav {
     margin: 0; }
     .playbook-section #simple-list li p {
       margin: 0; }
+  .playbook-section #roles {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 50px; }
+  .playbook-section .role {
+    clear: both;
+    margin-bottom: 17px; }
+    .playbook-section .role img {
+      width: 91px;
+      float: left;
+      margin-right: 33px; }
+    .playbook-section .role .description {
+      float: left; }
+      .playbook-section .role .description h4 {
+        text-transform: uppercase;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        letter-spacing: .28px;
+        font-size: 17px;
+        margin: 0px; }
+      .playbook-section .role .description p {
+        font-size: 17px;
+        margin: 0px;
+        max-width: 254px;
+        letter-spacing: .28px;
+        line-height: 22px; }
+    .playbook-section .role ul {
+      float: left; }
+      .playbook-section .role ul li {
+        font-weight: 100;
+        font-family: 'Source Sans Pro', sans-serif;
+        list-style-type: circle;
+        margin-left: 13px;
+        max-width: 321px;
+        letter-spacing: .25px;
+        line-height: 21px;
+        font-size: 17px;
+        margin: 0px; }
 
 .blue {
   background-color: #004469;
@@ -4216,6 +4254,9 @@ footer {
     width: 108px;
     margin-right: 34px;
     float: left; }
+  footer img:hover {
+    opacity: .8;
+    cursor: pointer; }
   footer #census-logo {
     margin-top: 30px; }
   footer ul {
@@ -4241,8 +4282,6 @@ footer {
 
 #section-07 {
   border-bottom: solid 3px white; }
-  #section-07 .checklist {
-    margin-bottom: 300px; }
 
 #see-more-scenarios:hover {
   cursor: pointer;
@@ -4250,3 +4289,6 @@ footer {
 
 .hidden {
   display: none; }
+
+#form-a-team h3 {
+  padding-top: 50px; }
