@@ -3763,6 +3763,20 @@ nav {
       margin-right: 76px;
       letter-spacing: .5px; }
 
+@media (max-width: 690px) {
+  #home-link {
+    display: none; } }
+
+@media (max-width: 600px) {
+  nav #links {
+    float: right;
+    width: 66%; }
+    nav #links a {
+      text-align: center;
+      width: 50%; }
+  nav img {
+    max-width: 33%; } }
+
 #splash {
   text-align: center;
   height: calc(90vh - 70px);
@@ -3883,12 +3897,13 @@ nav {
     cursor: pointer;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
   #gallery-body .project {
+    max-width: 737px;
     border: solid 2px #4A4A4A;
     margin-right: 14px;
     margin-bottom: 28px;
     padding: 22px 22px; }
     #gallery-body .project img {
-      height: 159px;
+      width: 237px;
       float: right;
       margin-top: -30px; }
   #gallery-body h2 {

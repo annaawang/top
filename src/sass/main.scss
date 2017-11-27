@@ -95,6 +95,28 @@ nav{
 	}
 }
 
+@media (max-width: 690px) {
+	#home-link{
+		display: none;
+	}
+}
+
+@media (max-width: 600px) {
+	nav {
+		#links{
+		float: right;
+		width: 66%;
+		a{
+			text-align: center;
+			width: 50%;
+			}
+		}
+		img{
+			max-width: 33%;
+		}
+	}
+}
+
 #splash{
 	text-align: center;
 	height: calc(90vh - 70px);
@@ -246,12 +268,13 @@ nav{
 		@include hoverable;
 	}
 	.project{
+		max-width: 737px;
 		border: solid 2px $gray;
 		margin-right: 14px;
 		margin-bottom: 28px;
 		padding: 22px 22px;
 		img{
-			height: 159px;
+			width: 237px;
 			float: right;
 			margin-top: -30px;
 		}
@@ -787,3 +810,4 @@ a:focus {
 #see-more-data{
 	margin-top: 11px;
 }
+
