@@ -3921,19 +3921,32 @@ nav {
       width: 237px;
       float: right;
       margin-top: -30px; }
-  #gallery-body h2 {
-    color: black;
-    font-size: 22px;
-    width: 100%;
-    float: left;
-    margin-bottom: 6px; }
-  #gallery-body p {
-    width: 373px;
-    float: left;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 14px;
-    color: #4A4A4A; }
+    #gallery-body .project h2 {
+      color: black;
+      font-size: 22px;
+      width: 100%;
+      float: left;
+      margin-bottom: 6px; }
+    #gallery-body .project p {
+      width: 373px;
+      float: left;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 14px;
+      color: #4A4A4A; }
+  @media (max-width: 720px) {
+    #gallery-body .project {
+      text-align: center; }
+      #gallery-body .project h2 {
+        float: none;
+        width: 100%;
+        margin-bottom: 20px; }
+      #gallery-body .project p {
+        float: none;
+        width: 100%; }
+      #gallery-body .project img {
+        float: none;
+        margin-top: 20px; } }
 
 .filters-div h2 {
   text-transform: uppercase;

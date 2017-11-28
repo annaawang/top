@@ -296,7 +296,6 @@ nav{
 			float: right;
 			margin-top: -30px;
 		}
-	}
 	h2{
 		color: black;
 		font-size: 22px;
@@ -311,6 +310,25 @@ nav{
 		margin-bottom: 0px;
 		font-size: 14px;
 		color: $gray;
+	}
+}
+	@media (max-width: 720px) {
+		.project{
+			text-align: center;
+			h2{
+				float: none;
+				width: 100%;
+				margin-bottom: 20px;
+			}
+			p{
+				float: none;
+				width: 100%;
+			}
+			img{
+				float: none;
+				margin-top: 20px;
+			}
+		}
 	}
 }
 
