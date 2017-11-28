@@ -27,7 +27,7 @@
       </div>
     </div>
     </nav>
-      <div class="usa-grid">
+      <div class="usa-grid" id="projects-header">
         <div class="usa-width-one-whole" id="projects-head">
           <h1> See the Projects </h1>
           <p class="constrained-p"> Learn about tools built by The Opportunity Project cohorts and browse all of the tools below </p> </div>
@@ -46,6 +46,12 @@
           </div-->
 
       <div class="usa-grid">
+        <a href="#projects-header" style="float: right">
+          <div id="scroll-to-top">
+              <img src="img/up-arrow.png">
+              <p> Return to top </p>
+          </div>
+        </a>
         <div id="gallery-body">
           <script type="text/x-handlebars-template" id="galleryTemplate">
             {{#each data}}
@@ -90,5 +96,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/smooth-scroll.js"></script>
 </body>
 </html>

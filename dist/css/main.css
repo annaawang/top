@@ -4357,3 +4357,11 @@ footer {
 
 #see-more-data {
   margin-top: 11px; }
+
+#scroll-to-top {
+  position: fixed;
+  text-align: center; }
+
+#scroll-to-top:hover {
+  opacity: .6;
+  cursor: pointer; }
