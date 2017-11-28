@@ -22,7 +22,7 @@
     "Title": "DATA2GO.NYC",
     "Owner": "Measure of America",
     "Category": "housing",
-    "Short-Message":"Measure of America's DATA2GO.NYC is a free mapping and data tool for visualizing Census, state, and city data that can help with Census outreach in NYC communities by answering questions like 'What happens with Census data?' and 'Why does the Census matter to me?'.",
+    "Short-Message":"A free mapping and data tool for visualizing Census Bureau, state, and city data that can help with decennial Census outreach in NYC communities by answering questions like 'What happens with Census data?'' and 'Why does the Census matter to me?'",
     "Image-File": "Measure.png",
     "Gallery-Link": "http://www.measureofamerica.org/SegregatedOpportunity",
     "ClearDiv": "yes"
@@ -112,7 +112,7 @@
     "Title": "PAIRIN Pathways",
     "Owner": "Pairin",
     "Category": "employment education",
-    "Short-Message": "PAIRIN Pathways leverages numerous private and public data from the US Census Bureau, Department of Labor, O*NET and more, to help veterans translate their developed skills into private sector careers, plus connect them to the education, soft skills development, and employers that can ensure their success.",
+    "Short-Message": "Uses data from the U.S. Census Bureau, Department of Labor, O*NET, and more to help veterans translate their developed skills into private sector careers and connect them to the education, soft skills development, and employers that can ensure their success.",
     "Image-File": "PAIRIN.png",
     "Gallery-Link": "https://www.pairin.com/pairin-pathways/",
     "ClearDiv": ""
@@ -307,10 +307,10 @@
     "ClearDiv": ""
   },
     {
-    "Title": "My City Data Learning tool",
+    "Title": "My City Data Learning Tool",
     "Owner": "Cisco",
     "Category": "employment",
-    "Short-Message": "Cisco Devnet's 'My City Data Learning tool’ uses American Community Survey Data from the US Census Bureau to drive awareness of Census data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.",
+    "Short-Message": "Uses American Community Survey data from the U.S. Census Bureau to drive awareness of Census Bureau data for mobile millennials and application developers so they can solve social problems using open data available for their communities and cities.",
     "Image-File": "Cisco.png",
     "Gallery-Link": "https://opendata.testing.devnetcloud.com/#/home",
     "ClearDiv": ""
@@ -328,7 +328,7 @@
     "Title": "Grants Intelligence",
     "Owner": "eCivis",
     "Category": "employment",
-    "Short-Message": "eCivis's tool, Grants Intelligence, uses CFDA, USA Spending, Single Audit, and Census data to help  local, state, federal, and tribal governments navigate federal grants and maximize the ROI of federal grant dollars.",
+    "Short-Message": "Uses USA Spending, Single Audit, Census Bureau and Catalog of Federal Domestic Assistance data to help local, state, federal, and tribal governments navigate federal grants and maximize the return on investment of federal grant dollars.",
     "Image-File": "eCivis.png",
     "Gallery-Link": "https://intel.ecivis.com",
     "ClearDiv": ""
@@ -337,7 +337,7 @@
     "Title": "True Impact: Social Impact Reporting Platform",
     "Owner": "True Impact",
     "Category": "employment",
-    "Short-Message": "True Impact used federal data to enhance its Social Impact Reporting Platform, enabling users to automatically query HHS's grants.gov database to find funding opportunities they may qualify for.",
+    "Short-Message": "True Impact used federal data to enhance its Social Impact Reporting Platform, enabling users to automatically query the federal grants.gov database to find funding opportunities they may qualify for.",
     "Image-File": "TrueImpact.png",
     "Gallery-Link": "http://www.trueimpact.com",
     "ClearDiv": ""
@@ -355,16 +355,16 @@
     "Title": "BayesDB",
     "Owner": "MIT",
     "Category": "employment",
-    "Short-Message": "MIT Probabilistic Computing Project's tool Bayes DB is a web-based Artificial Intelligence product that helps journalists, activists, philanthropists, public servants, and policy advocates to search U.S. Census Bureau, FBI, and CDC public data on demographics, criminal justice, public health and elections.",
+    "Short-Message": "A web-based artificial intelligence tool that helps journalists, philanthropists, public servants, and policy advocates to search Census Bureau, FBI, and CDC public data on demographics, criminal justice, public health, and elections. ",
     "Image-File": "MIT.png",
     "Gallery-Link": "https://www.dropbox.com/s/764xq2u7zxg1pkk/bayesdb%20web%20demo.mp4?dl=0",
     "ClearDiv": ""
   },
     {
-    "Title": "WeCount",
+    "Title": "PopCount",
     "Owner": "IBM",
     "Category": "employment",
-    "Short-Message": "IBM's tool WeCount is an iOS application to support the logistical planning, coordination, execution, and data collection effort undertaken by Census employees conducting the Homeless Count.",
+    "Short-Message": "An iOS application to support the logistical planning, coordination, execution, and data collection effort undertaken by Census Bureau employees conducting the homeless count.",
     "Image-File": "IBM.png",
     "Gallery-Link": "https://jobpostings.ushahidi.io/",
     "ClearDiv": "yes"

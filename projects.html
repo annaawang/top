@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Built by Civic Digital Fellows -->
+<!--
+  Build by Civic Digital Fellows (https://codingitforward.com/)
+  -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> The Opportunity Project</title>
     <meta name="description" content="">
     <link type="text/css" rel="stylesheet" href="css/main.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/uswds.min.js"></script>
+    <link href="img/icon.png" rel="icon" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700" rel="stylesheet">
   </head>
 
 <body>
@@ -16,18 +20,19 @@
       <div class="usa-width-one-whole">
         <a href="index.html"><img src="img/logo.png" alt="The Opportunity Project Logo" id="logo"></a>
             <div id="links">
-              <a href="#" id="home-link"> Home </a>
-              <a href="#"> See the Projects </a>
+              <a href="index.html" id="home-link"> Home </a>
+              <a href="#" id="see-the-projects"> See the Projects </a>
               <a href="playbook.html"> Get Started </a>
             </div>
       </div>
     </div>
     </nav>
-      <div class="usa-grid">
+      <div class="usa-grid" id="projects-header">
         <div class="usa-width-one-whole" id="projects-head">
           <h1> See the Projects </h1>
           <p class="constrained-p"> Learn about tools built by The Opportunity Project cohorts and browse all of the tools below </p> </div>
       </div>
+      <div id="Container">
             <div class="usa-grid">
               <div class="filters-div usa-width-one-whole">
               <h2> Browse by community need </h2>
@@ -42,20 +47,27 @@
           </div>
 
       <div class="usa-grid">
+        <a href="#projects-header" style="float: right">
+          <div id="scroll-to-top">
+              <img src="img/up-arrow.png">
+              <p> Return to top </p>
+          </div>
+        </a>
         <div id="gallery-body">
           <script type="text/x-handlebars-template" id="galleryTemplate">
             {{#each data}}
             <a href="{{Gallery-Link}}">
-             <div class="usa-width-one-whole project">
+             <div class="usa-width-one-whole project mix {{Category}}" style="display: inline-block">
             <h2>{{Title}}</h2>
             <p> {{Short-Message}}</p>
-            <img src="img/data-consumers/{{Image-File}}">            
+            <img src="img/data-consumers/{{Image-File}}" alt="Project Image">            
             </div>
             </a>
             {{/each}}
           </script>
         </div>
       </div>
+    </div>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
@@ -86,5 +98,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/smooth-scroll.js"></script>
 </body>
 </html>
