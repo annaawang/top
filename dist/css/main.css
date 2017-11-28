@@ -3823,6 +3823,10 @@ nav {
   #splash #start-a-project {
     background-color: #0078AC;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  #splash #learn-more:hover {
+    background-color: #84001d; }
+  #splash #start-a-project:hover {
+    background-color: #004469; }
 
 @media (max-width: 520px) {
   #splash h1 {
@@ -4339,11 +4343,12 @@ footer {
 .hidden {
   display: none; }
 
-#form-a-team h3 {
-  padding-top: 50px; }
-
-#form-a-team h3:first-child {
-  padding-top: 0px; }
+#form-a-team {
+  margin-top: -100px; }
+  #form-a-team h3 {
+    padding-top: 50px; }
+  #form-a-team h3:first-child {
+    padding-top: 0px; }
 
 .data-inventory table {
   width: 737px;
@@ -4365,3 +4370,6 @@ footer {
 #scroll-to-top:hover {
   opacity: .6;
   cursor: pointer; }
+
+#Container .mix {
+  display: none; }
