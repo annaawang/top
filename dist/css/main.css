@@ -4373,3 +4373,11 @@ footer {
 
 #Container .mix {
   display: none; }
+
+.filters-div .active {
+  color: white;
+  background-color: #0078AC; }
+
+.filters-div .active.showAll {
+  color: white;
+  background-color: #C8002C; }

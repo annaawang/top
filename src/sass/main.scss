@@ -864,3 +864,13 @@ a:focus {
 #Container .mix {
   display: none;
 }
+.filters-div{
+	.active{
+		color: white;
+		background-color: $light-blue;
+	}
+	.active.showAll{
+		color: white;
+		background-color: $red;
+	}
+}
